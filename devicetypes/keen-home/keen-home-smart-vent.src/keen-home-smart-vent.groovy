@@ -38,8 +38,8 @@ metadata {
     // UI tile definitions
     tiles {
         standardTile("switch", "device.switch", width: 2, height: 2, canChangeIcon: true) {
-            state "on", action: "switch.off", icon: "st.vents.vent-open-text", backgroundColor: "#00a0dc"
-            state "off", action: "switch.on", icon: "st.vents.vent-closed", backgroundColor: "#ffffff"
+            state "on", label: "open", action: "switch.off", icon: "st.vents.vent-open", backgroundColor: "#ffffff"
+            state "off", label: "closed", action: "switch.on", icon: "st.vents.vent-closed", backgroundColor: "#ffffff"
             state "obstructed", action: "clearObstruction", icon: "st.vents.vent-closed", backgroundColor: "#e86d13"
             state "clearing", action: "", icon: "st.vents.vent-closed", backgroundColor: "#ffffff"
         }
