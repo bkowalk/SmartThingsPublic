@@ -3,7 +3,7 @@
 // SmartThings Device Handler v1.0.0
 
 metadata {
-    definition (name: "Keen Home Smart Vent", namespace: "Keen Home", author: "Keen Home") {
+    definition (name: "Keen Home Smart Vent -  bkowalk", namespace: "Keen Home", author: "Keen Home") {
         capability "Switch Level"
         capability "Switch"
         capability "Configuration"
